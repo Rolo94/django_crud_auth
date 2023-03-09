@@ -1,6 +1,23 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h1>Home</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti assumenda sint quam ut dolore beatae ad expedita consectetur quos vitae cupiditate ea unde quaerat accusantium enim dolores, voluptates obcaecati ipsa?</p>
+
+<main class="container">
+    <section class="card card-body">
+        <h1 class="display-1 text-center">Django app</h1>
+        <p>Esta aplicación es un CRUD de tareas, para poder llevar un mejor control de las mismas. Realizada utilizando Django y Bootstrap.</p>
+    
+        <div class="text-center">
+            <a class="btn btn-primary" href="/signin">
+                Signin
+            </a>
+            <a class="btn btn-primary" href="/signup">
+                Signup
+            </a>
+        </div>
+    
+    
+    </section>
+</main>
+
 {% endblock %}
